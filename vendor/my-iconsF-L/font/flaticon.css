@@ -1,0 +1,42 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/05/2017 16:39
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 30px;
+font-style: normal;
+}
+
+.flaticon-transport:before { content: "\f100"; }
+.flaticon-settings-gears:before { content: "\f101"; }
+.flaticon-criminal-wearing-eye-piece-and-striped-top:before { content: "\f102"; }
+.flaticon-link-symbol:before { content: "\f103"; }
+.flaticon-car-on-fire:before { content: "\f104"; }
+.flaticon-house:before { content: "\f105"; }
+.flaticon-mother-with-baby-in-arms:before { content: "\f106"; }
+.flaticon-pill-capsule:before { content: "\f107"; }
+.flaticon-crawling-baby-silhouette:before { content: "\f108"; }
+.flaticon-courthouse:before { content: "\f109"; }
+.flaticon-law-office:before { content: "\f10a"; }
+.flaticon-scales-of-justice:before { content: "\f10b"; }
